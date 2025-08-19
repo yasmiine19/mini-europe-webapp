@@ -1,52 +1,75 @@
-# 🌍 Mini-Europe Webapp
+# 🌍 Mini-Europe Webapp  
 
 👩‍💻 **Independent freelance project** – developed individually for **Mini-Europe (Brussels)**.  
-**Goal:** replace paper-based visitor surveys with a digital solution, giving the marketing team **real-time insights** into visitor origins.  
-**Usage:** deployed on **tablets** and used daily by ticket staff at the entrance.  
+Goal: replace paper-based visitor surveys with a digital solution, giving the marketing team **real-time insights** into visitor origins.  
 
-🔗 **Live demo:** https://enquete-me.wbdesignpro.com/
+👉 Used daily on **tablets** by ticket staff at the entrance of Mini-Europe.  
 
----
+🔗 **Live demo**: [enquete-me.wbdesignpro.com](https://enquete-me.wbdesignpro.com/)  
 
-## 📸 Screenshots (UI only)
-*(No backend or sensitive data shown)*
-
-### 🔑 Login
-![Login](screenshots/login.png)
-
-### 📝 Daily Inputs
-![Daily Inputs](screenshots/daily.png)
-
-### 🌍 Country Selection
-![Country selection – v1](screenshots/country-1.png)  
-![Country selection – dark mode](screenshots/country-2.png)
-
-### 📊 Visitor Statistics
-**By hour**  
-![Visitors by hour](screenshots/by-hour.png)
-
-**By country**  
-![Visitors by country](screenshots/by-country.png)
-
-### 📤 Export & Totals
-![Export & totals](screenshots/total:export.png)
 
 ---
 
-## 🚀 Features
-- Fast **tablet UI** for staff (country & weather logging)
-- Data stored via **Firebase** (Authentication + Realtime Database)
-- **Analytics** views (by hour / by country)
-- **Excel export** for monthly reporting
+## 📖 About the Project  
 
-## 🛠 Tech Stack
-HTML · CSS · JavaScript · **Firebase** (Auth + Realtime DB) · Elementor · Hostinger
+Before this app, Mini-Europe staff collected visitor origins on **paper surveys**, which were later processed manually.  
+This was slow, error-prone, and gave little insight during the day.  
 
-## 👩‍💻 My Role
-- **End-to-end owner**: design → implementation → deployment
-- Firebase integration and secure data flow
-- Built analytics views and export pipeline
+With the new **digital webapp**:  
+- ✅ Staff can log visitors in just **one tap** on a tablet  
+- ✅ Data is stored in **real time** in Firebase  
+- ✅ The marketing team can immediately see **statistics per country & per hour**  
+- ✅ At the end of the day, a **full Excel export** is available  
 
-## 🔒 Notes
-This repository is a **case study** for portfolio purposes.  
-No client credentials, secrets or private data are published.
+👉 This solution reduced paperwork, saved time, and improved the accuracy of visitor statistics.  
+
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: HTML, CSS, JavaScript, Elementor  
+- **Backend**: Firebase (Realtime Database + Authentication)  
+- **Deployment**: Hostinger  
+
+---
+
+## 📸 Screenshots  
+
+### 🔑 Login Screen  
+![Login](screenshots/login.png)  
+
+### 📅 Daily Inputs (weather & employees)  
+![Daily](screenshots/daily.png)  
+
+### 🌍 Country Selection (Tablet UI)  
+![Country Selection 1](screenshots/country-1.png)  
+![Country Selection 2](screenshots/country-2.png)  
+
+### 📊 Visitor Data (per hour & per country)  
+![By Hour](screenshots/by-hour.png)  
+![By Country](screenshots/by-country.png)  
+
+### 📤 End of Day – Export  
+![Export](screenshots/total:export.png)  
+
+---
+
+## 🙋 My Contribution  
+
+As the **sole developer**, I was responsible for the **entire project lifecycle**:  
+- Full-stack development (design → coding → deployment)  
+- Firebase integration for secure real-time data collection  
+- Dashboard and Excel export features for marketing analysis  
+- Communication with the client (requirements, feedback, delivery)  
+
+---
+
+## 🚀 Impact  
+
+- 📈 Improved **efficiency** → no more manual paper tallying  
+- ⏱️ Saved staff **hours per day**  
+- 🔎 Provided **instant insights** into visitor demographics  
+- 💡 Helped Mini-Europe’s marketing team with **data-driven decisions**  
+
+---
